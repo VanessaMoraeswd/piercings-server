@@ -1,0 +1,24 @@
+### Endpoint GET /api/piercings
+GET http://localhost:3001/api/piercings
+
+### Endpoint POST /api/piercings
+
+POST http://localhost:3001/api/piercings
+Content-Type: application/json
+
+{
+  "name": "Piercing C",
+  "price": 400.0
+}
+
+### Endpoint PUT /api/piercings/{id}
+PUT http://localhost:3001/api/piercings/1
+Content-Type: application/json
+
+{
+  "name": "Updated Piercing",
+  "price": 800.0
+}
+
+### Endpoint DELETE /api/piercings/{id}
+DELETE http://localhost:3001/api/piercings/1
